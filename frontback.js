@@ -1,11 +1,11 @@
-// Warmup-1 -- frontBack
-// Given a string, return a new string where the first and last chars have been exchanged.
+Warmup-1 -- frontBack
+Given a string, return a new string where the first and last chars have been exchanged.
 
-// Examples
+Examples
 
-// frontBack('code') → eodc
-// frontBack('a') → a
-// frontBack('ab') → ba
+frontBack('code') → eodc
+frontBack('a') → a
+frontBack('ab') → ba
 
 function frontBack(str){
     let front = str[0]
