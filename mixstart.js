@@ -6,3 +6,9 @@ Examples
 mixStart('mix snacks') → true
 mixStart('pix snacks') → true
 mixStart('piz snacks') → false
+
+function mixStart(str){
+    if(str[1]==="i"&& str[2]==="x" ){
+    return true
+    }return false
+  }console.log(mixStart('mix snacks'));
